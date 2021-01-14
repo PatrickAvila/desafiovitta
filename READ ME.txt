@@ -1,0 +1,7 @@
+Para rodar o script de teste é preciso ter os seguintes itens instalados na maquina:
+1- Uma IDE instalada na maquina, eu uso o intellij IDEA da jetbrains mas pode ser qualquer outra. 
+2- O java development Kit
+3- O Chrome Driver, pois eu uso o google driver nesse teste
+4- As bibliotecas Junit e Seleniuam Web Driver baixadas pelo maven diretory
+
+Após instalar corretamente todos os passos é só abrir o folder com o script na sua IDE e rodar 
