@@ -15,7 +15,7 @@ public class paginaSite {
 
     public paginaSite site(){
         List<String> abas = new ArrayList<>(navegador.getWindowHandles());
-        navegador.switchTo().window(abas.get(1));
+        navegador.switchTo().window(abas.get(2));
         return this;
     }
 }

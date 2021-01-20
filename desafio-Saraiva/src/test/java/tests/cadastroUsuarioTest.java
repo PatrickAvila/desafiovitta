@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 @RunWith(DataDrivenTestRunner.class)
 @DataLoader(filePaths = "cadastroUsuarioTest.csv")
 //MUDE AS INFORMAÇÕES NO ARQUIVO CSV PRO TESTE PODER RODAR(EXISTE UMA VALIDAÇÃO DE E-MAIL, ENTÃO TEM QUE COLOCAR UM VALIDO)
+//CASO NÃO TENHA EMAIL VALIDO INDICO ESSE SITE https://temp-mail.org/pt/
 
 public class cadastroUsuarioTest  extends geradorCpf{
     private WebDriver navegador;
