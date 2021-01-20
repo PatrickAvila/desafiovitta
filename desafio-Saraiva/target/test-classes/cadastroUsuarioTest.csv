@@ -1,3 +1,2 @@
-testAdicionarUmNovoUsuario,InputNome1,InputSobrenome1,InputEmail1,InputSenha1,InputConfirmeSenha1,InputDataNascimento1,InputCelular1,InputCep1,InputNumero1,InputComplemento1,InputTelefone1
-                          ,Patrick,Avila,trickavila@hotmail.com,123456,123456,12081999,21970161768,21755370,93,casa 5,21970161768
-                          ,Patrick,Ferreira,patrick@hotmail.com,12345678,12345678,12081995,21970161999,21755370,93,casa 5,21970161768
+testAdicionarUmNovoUsuario,InputNome1,InputSobrenome1,InputEmail1,InputSenha1,InputConfirmeSenha1,InputDataNascimento1,InputCelular1,InputCep1,InputNumero1,InputComplemento1,InputTelefone1,Duration(ms)
+"",Patrick,Avila,trickavila35@hotmail.com,123456,123456,12081999,21970161768,21755370,93,casa 5,21970161768,12738.0

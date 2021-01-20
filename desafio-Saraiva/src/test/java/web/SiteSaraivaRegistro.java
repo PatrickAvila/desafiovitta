@@ -76,9 +76,12 @@ public class SiteSaraivaRegistro  extends geradorCpf {
         return this;
     }
 
-    public SiteSaraivaRegistro clicarSexo(){
-        WebElement radio1 = navegador.findElement(By.id("newUser")).findElement(By.name("InputSexo"));
-        radio1.findElement(By.id("RadioMasculino1")).click();
+    public SiteSaraivaRegistro clicarSexo() throws InterruptedException {
+        navegador.findElement(By.id("newUser")).findElement(By.cssSelector("input[type='radio']:first-of-type")).isSelected();
+        //WebElement radio1 =
+        navegador.findElement(By.id("newUser")).findElement(By.cssSelector("label[for='RadioMasculino1']")).click();
+        //Thread.sleep(1000);
+        //radio1.click();
         return this;
     }
 

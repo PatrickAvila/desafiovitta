@@ -2,6 +2,10 @@ package web;
 
 import org.openqa.selenium.WebDriver;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
 public class paginaSite {
     private WebDriver navegador;
 
@@ -10,7 +14,8 @@ public class paginaSite {
     }
 
     public paginaSite site(){
-        navegador.get("https://www.saraiva.com.br/");
+        List<String> abas = new ArrayList<>(navegador.getWindowHandles());
+        navegador.switchTo().window(abas.get(1));
         return this;
     }
 }
