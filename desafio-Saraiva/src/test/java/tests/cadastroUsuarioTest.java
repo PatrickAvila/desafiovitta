@@ -51,9 +51,9 @@ public class cadastroUsuarioTest  extends geradorCpf{
     }
 
     //Caso haja erro no test, comentar o after
-/*    @After
+   @After
     public void tearDown(){
         navegador.quit();
-    }*/
+    }
 
 }
